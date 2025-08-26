@@ -1,10 +1,13 @@
 import './app.css'
+import Login from './components/Login/Login'
 
 export function App() {
 
   return (
     <>
-      <div>hello </div>
+      <div>
+        <Login />
+      </div>
     </>
   )
 }
